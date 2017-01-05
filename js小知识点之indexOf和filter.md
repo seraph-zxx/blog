@@ -6,10 +6,14 @@ indexOf() 方法可返回某个指定的字符串值在字符串中首次出现�
 2.  返回 其他整数表示匹配字符串下标起始位置  
 
 example：  
-```
+[html] view plaincopyprint?
+```javascript
 var result = 0,
+    str = "zxxwslq"
     str1 = "zxx",
-    str2 = "zxxwslq";    
-    result = str2.indexOf(str1);
-console.log(reuslt);  //0
+    str2 = "wtf";    
+result = str.indexOf(str1);
+console.log(result);  //0
+result = str.indexOf(str2);
+console.log(result);  //-1
 ```
